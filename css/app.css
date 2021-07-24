@@ -1,0 +1,56 @@
+#canvas {
+	display: block;
+	margin: 0 auto;
+}
+
+
+
+/** START GAME COMPLETE MODAL WINDOW  **/
+
+#modal-container {
+	background-color: rgba(0,0,0,0.7);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 2;
+}
+
+#modal {
+	background-color: #fff;
+	width: 48%;
+	height: 300px;
+	position: relative;
+	top: 25%;
+	margin: 0 auto;
+	padding: 15px;
+	border-radius: 5px;
+}
+
+.modal-title {
+	text-align: center;
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+#modal-close {
+	font-size: 1.5em;
+	float: right;
+}
+
+#modal-message {
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.hide {
+	visibility: hidden;
+}
+
+.show {
+	visibility: visible;
+}
+
+/** END GAME COMPLETE MODAL WINDOW  **/
+
